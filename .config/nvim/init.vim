@@ -79,6 +79,7 @@ nmap <silent> gr <Plug>(coc-references)
 nmap <silent> <leader>rn <Plug>(coc-rename)
 nmap <silent> <leader>d :CocList diagnostics<CR>
 nmap <silent> gh :CocCommand clangd.switchSourceHeader<CR>
+nmap <silent> <leader>f :CocFix<CR>
 " imap <silent> <C-l> <Plug>(coc-snippets-expand)
 " imap <silent> <C-j> <Plug>(coc-snippets-expand-jump)
 " vmap <silent> <C-j> <Plug>(coc-snippets-select)
@@ -208,6 +209,8 @@ set showbreak=↪
 
 " Disable annoying beeping
 set noerrorbells
+
+set matchpairs+=<:>
 
 " }}}
 " MAPPINGS {{{
